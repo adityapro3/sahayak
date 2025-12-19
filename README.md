@@ -1,14 +1,19 @@
-📘 Sahayak
+# 📘 Sahayak
 
-Sahayak is a Streamlit application is used to run quizzes, store quiz results, and support basic vector-based data storage for learning and experimentation purposes.
+Sahayak is an a streamlit based application which generates personalized quizzes and question answers on the basis of students past performance with the help of ncert based curriculum books. The current version works on class 6-10 science subjects. 
 
-⚙️ Technologies Used
+---
 
-Python
-Langchain (for vector database creation)
-Streamlit (for UI and app execution)
-SQLite (for storing quiz results)
-Vector Store (for semantic or experimental data storage)
+## ⚙️ Technologies Used
+
+- Python
+- Langchain (for vector database creation)
+- Streamlit (for UI and app execution)
+- SQLite (for storing quiz results)
+- Vector Store (for semantic or experimental data storage)
+- ollama (for calling the llm)
+
+## 📂 Project Structure
 
 sahayak/
 │
@@ -17,15 +22,32 @@ sahayak/
 ├── vectorstores/       # Stores vector / embedding data
 └── README.md   
 
-🧪 Features
+---
 
-User-friendly interface using Streamlit
-Quiz interaction and result tracking
-Local database storage using SQLite
-Vector storage support for future AI extensions
+## ▶️ How to Run the Project
 
-🔮 Future Scope
+### Step 1: Clone the Repository
+git clone https://github.com/adityapro3/sahayak.git
 
-Improve UI design
-Add user login system
-Cloud database integration
+cd sahayak
+
+### Step 2: Install Required Libraries
+pip install streamlit langchain ollama sqlite3 pandas re
+
+### Step 3: Run the Streamlit Application
+streamlit run app.py
+
+---
+
+## 🧪 Features
+
+- User-friendly interface using Streamlit
+- Quiz interaction and result tracking
+- Local database storage using SQLite
+- Vector storage support for future AI extensions
+
+## 🔮 Future Scope
+
+- Improve UI design
+- Add user login system
+- Cloud database integration
