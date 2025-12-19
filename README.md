@@ -14,28 +14,31 @@ Sahayak is an a streamlit based application which generates personalized quizzes
 - ollama (for calling the llm)
 
 ## 📂 Project Structure
-
+```
 sahayak/
 │
-├── app.py              # Main Streamlit application
-├── quiz_results.db     # SQLite database for quiz results
-├── vectorstores/       # Stores vector / embedding data
-└── README.md   
-
+├── app.py # Main Streamlit application
+├── quiz_results.db # SQLite database for quiz results
+├── vectorstores/ # Directory for vector / embedding storage
+└── README.md # Project documentation
+```
 ---
 
 ## ▶️ How to Run the Project
 
 ### Step 1: Clone the Repository
+```
 git clone https://github.com/adityapro3/sahayak.git
-
 cd sahayak
-
+```
 ### Step 2: Install Required Libraries
+```
 pip install streamlit langchain ollama sqlite3 pandas re
-
+```
 ### Step 3: Run the Streamlit Application
+```
 streamlit run app.py
+```
 
 ---
 
