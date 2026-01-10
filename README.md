@@ -7,7 +7,7 @@ Sahayak is an a streamlit based application which generates personalized quizzes
 ## ⚙️ Technologies Used
 
 - Python
-- Langchain (for vector database creation)
+- Langchain (for vector database creation & query retreival)
 - Streamlit (for UI and app execution)
 - SQLite (for storing quiz results)
 - Vector Store (for semantic or experimental data storage)
